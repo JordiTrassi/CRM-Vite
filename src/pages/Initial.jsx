@@ -11,8 +11,6 @@ export const Initial = () => {
  
   const clientes = useLoaderData();
 
-  console.log(clientes);
-
   return (
     <>
       <h1 className="font-black text-4xl text-blue-900">Clientes</h1>

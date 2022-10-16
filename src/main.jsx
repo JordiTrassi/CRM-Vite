@@ -2,9 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Layout, ErrorView } from './components'
-import { Initial, NewClient } from './pages'
-import { action as newClientAction} from './pages/NewClient'
+import { EditClient, Initial, NewClient } from './pages'
+import { action as newClientAction } from './pages/NewClient'
+import { action as editClientAction} from './pages/EditClient'
 import { loader as clientesLoader } from './pages/Initial'
+import { loader as editarClienteLoader } from './pages/EditClient'
 import './index.css'
 
 
@@ -22,7 +24,15 @@ const router = createBrowserRouter([
       {
         path: '/clientes/nuevo',
         element: <NewClient />,
-        action: newClientAction
+        action: newClientAction,
+        errorElement: <ErrorView />
+      },
+      {
+        path: '/clientes/:clientId/editar',
+        element: <EditClient />,
+        loader: editarClienteLoader,
+        action: editClientAction,
+        errorElement: <ErrorView />
       }
     ]
   }
