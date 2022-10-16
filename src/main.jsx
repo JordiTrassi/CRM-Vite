@@ -4,7 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Layout, ErrorView } from './components'
 import { EditClient, Initial, NewClient } from './pages'
 import { action as newClientAction } from './pages/NewClient'
-import { action as editClientAction} from './pages/EditClient'
+import { action as editClientAction } from './pages/EditClient'
+import { action as deleteClientAction } from './components/Client'
 import { loader as clientesLoader } from './pages/Initial'
 import { loader as editarClienteLoader } from './pages/EditClient'
 import './index.css'
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         loader: editarClienteLoader,
         action: editClientAction,
         errorElement: <ErrorView />
+      },
+      {
+        path: '/clientes/:clientId/eliminar',
+        action: deleteClientAction
       }
     ]
   }
