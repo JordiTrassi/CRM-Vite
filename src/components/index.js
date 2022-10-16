@@ -1,3 +1,3 @@
 export * from './Client';
-export * from './Form';
+export * from './Formulario';
 export * from './Layout';

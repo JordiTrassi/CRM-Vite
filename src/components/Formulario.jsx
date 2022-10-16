@@ -1,4 +1,4 @@
-export const Formu = ({cliente}) => {
+export const Formulario = ({cliente}) => {
     return (
         <>
             <div className="mb-4">
