@@ -4,7 +4,7 @@ import { Client } from '../components';
 
 export function loader() {
   const clients = getClients()
-  return clients 
+  return clients
 }
 
 export const Initial = () => {
