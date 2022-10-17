@@ -1,5 +1,5 @@
 CRM created with Vite and Tailwind CSS.
-<h1 style="text-align: center; justify: center">CRM <img 
+<h1 align="center">CRM <img 
 src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-crm-sales-flaticons-lineal-color-flat-icons.png" alt="vet-patient-manager" width="40" height="40" /></h1>
 <h2>App created with Vite and Tailwind CSS</h2>
 <p>
