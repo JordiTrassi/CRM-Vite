@@ -1,26 +1,28 @@
 {
   "clientes": [
     {
-      "nombre": "Juan!!!",
-      "empresa": "Trassi CRM CLIENTS",
-      "email": "juan@juan.com",
-      "telefono": "102013313",
-      "notas": "NUEVA NOTAnnn",
+      "nombre": "John Snow",
+      "empresa": "TrassiCo. CRM CLIENTS",
+      "email": "john@john.com",
+      "telefono": "999111222",
+      "notas": "Space for a John 's note.",
       "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Karen",
-      "telefono": 138198313,
-      "email": "karen@juan.com",
-      "empresa": "Trassi CRM CLIENTS"
+      "nombre": "Jessy ",
+      "empresa": "Trassi CRM CLIENTS",
+      "email": "jessy@mail.com",
+      "telefono": "888333444",
+      "notas": "Space for Jessy's notes",
+      "id": 2
     },
     {
-      "id": 3,
-      "nombre": "Josue",
-      "telefono": 31983913,
-      "email": "josue@juan.com",
-      "empresa": "Trassi CRM CLIENTS"
+      "nombre": "Michael Simpson",
+      "empresa": "Trassi CRM CLIENTS",
+      "email": "mike@mail.com",
+      "telefono": "888666777",
+      "notas": "Mike's notes.",
+      "id": 3
     }
   ]
 }

@@ -30,10 +30,10 @@ export const Client = ({ cliente }) => {
             </p>
           </td>
           
-          <td className='p-6 flex gap-3'>
+          <td className='p-6 flex gap-3 justify-center mt-4'>
               <button
                   type="button"
-                  className="text-blue-600 hover:text-blue-700 uppercase font-bold text-xs"
+                  className="text-blue-600 hover:text-blue-700 uppercase font-bold text-s"
                   onClick={() => navigate(`/clientes/${id}/editar`)}
               >
                   Editar                  
@@ -50,7 +50,7 @@ export const Client = ({ cliente }) => {
               >
                 <button
                     type="submit"
-                    className="text-red-600 hover:text-red-700 uppercase font-bold text-xs"
+                    className="text-red-600 hover:text-red-700 uppercase font-bold text-s"
                 >
                     Eliminar                  
                 </button>

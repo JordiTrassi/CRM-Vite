@@ -8,7 +8,11 @@ export const Layout = () => {
         <div className='md:flex md:min-h-screen'>
             <aside className='md:w-1/4 bg-blue-800 px-5 py-10'>
                 <h2 className='text-4xl font-black text-center text-white'>CRM Clientes</h2>
-
+                <img
+                    src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-crm-sales-flaticons-lineal-color-flat-icons.png"
+                    alt="crm logo"
+                    className='mx-auto max-w-lg h-auto  mt-5'
+                />
                 <nav className='mt-10'>
                     <Link 
                         className={`${location.pathname === '/' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300`} 
